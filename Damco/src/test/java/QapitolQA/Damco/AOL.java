@@ -47,9 +47,9 @@ public class AOL {
       //  driver.findElement(By.xpath(" //button[@title='Bulleted List']//*[name()='svg']")).click();
         //unable to select bullet from drop down
       //  driver.findElement(By.xpath("//div[@aria-label='Message body']")).sendKeys("Line 1");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Attach')] ")));
+       // wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Attach')] ")));
         
-        driver.findElement(By.xpath("//span[contains(text(),'Attach')]")).sendKeys("C:\\Users\\QQA0325\\Downloads\\image.jpg");
+       // driver.findElement(By.xpath("//span[contains(text(),'Attach')]")).sendKeys("C:\\Users\\QQA0325\\Downloads\\image.jpg");
         
         
      
