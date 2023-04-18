@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ecommerce Demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Errorvalidation Test(failed)">
+    <classes>
+      <class name="QapitolQA.errorvalidationtest">
+        <methods>
+          <include name="productErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- QapitolQA.errorvalidationtest -->
+    </classes>
+  </test> <!-- Errorvalidation Test(failed) -->
+</suite> <!-- Failed suite [Ecommerce Demo] -->
